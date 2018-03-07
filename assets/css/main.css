@@ -1,0 +1,185 @@
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.centered {
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    color:  white;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+.row img{
+  padding-top: 30px
+}
+
+a {
+  font-weight: bold;
+  text-decoration:none;
+  color: black;
+}
+
+a:visited{
+  color: black
+}
+
+
+
+.nav-bar {
+  text-align: center;
+    right: 0;
+    display: inline;
+    position: fixed;
+    width:100%;
+    z-index:1;
+    background-color: white;
+    border-bottom: 1px solid #B22222
+
+}
+
+.navbarbrand, .client{
+  color: #B22222;
+}
+
+
+.nav-bar ul {
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav-bar li {
+        float: right;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+
+}
+
+.nav-bar img {
+  float: left;
+}
+
+
+
+.nav-bar a {
+    display: block;
+    color: #B22222;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration:none;
+
+}
+
+.nav-bar a:hover:not(.active) {
+    color: #111;
+}
+
+
+
+ .navbarbrand {
+   width: 250px;
+   height: 10px 0px;
+   background-color: white;
+   float: left;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 20px;
+   text-align: center;
+   text-decoration: none;
+   color:white;
+
+
+    font-family: 'Great Vibes', cursive;
+
+
+}
+
+p , h1, h2, h3{
+ font-family: 'Raleway', sans-serif;
+}
+
+p, dd{
+  font-size: 15px;
+}
+
+
+.footer-copyright{
+left: 0;
+top: 10px
+bottom: 10px;
+width: 100%;
+color: black;
+text-align: center;
+font-size: 10px
+}
+
+.txt {
+  text-align: center;
+  padding: 15px
+}
+
+.txt .pres p{
+  font-size: 20px
+}
+
+.justify p {
+  text-align: justify;
+}
+
+.pres {
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+ font-size: 25px
+}
+
+
+.lign{
+  padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+dd{
+  text-align: center;
+
+}
+
+h3{
+  color: #B22222;
+}
+
+.description p {
+  text-align: justify;
+}
+
+.villa-img{
+  padding: 10px;
+  float: left;
+}
+
+.client a{
+  color: #B22222;
+}
+
+.wow{
+  padding-bottom: 20px
+}
